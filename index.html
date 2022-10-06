@@ -6,150 +6,200 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TenantTax</title>
-        <link rel="icon" href="Pics/building.png" sizes="96x96" type="image/png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Pics/building.png" sizes="96x96" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <style>
-        *{
+        * {
             box-sizing: border-box;
             margin: 0%;
-            padding : 0%;
+            padding: 0%;
         }
-        header {
-<<<<<<< HEAD
-            
-            height: 35px;
-=======
-            margin-top: -21px;
 
-            height: 150px;
->>>>>>> 29c438e4446d02e8b302040ad2793bfe88621534
-            background-color: aquamarine;
-            padding: auto;
-            background-image: url("Pics/tax.jpg");
-            position: relative;
+        .parent {
+            display: flex;
+            height: 80px;
+            background-color: rgb(3, 49, 77);
+            /* For browsers that do not support gradients */
+
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #heading {
+            color: white;
+            font-size: 40px;
         }
 
         nav {
-            height: 40px;
+            height: 51px;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            background-color: bisque;
+            background-color: rgb(12, 62, 95);
             padding: auto;
 
 
-        }
-
-        #home1 {
-            padding: 6em;
-        }
-
-        #form {
-            padding-top: 6em;
         }
 
         .body {
             display: flex;
         }
 
+        #mainImg img {
+
+            width: 900px;
+            height: 730px;
+        }
+
+        .div_2 {
+            text-align: center;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            width: 950px;
+            height: 730px;
+            background-color: rgb(23, 57, 80);
+            padding-top: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px;
+        }
+
         footer {
             position: fixed;
-            left: 0;
+            bottom: 0;
+            padding: 10px 10px 0px 10px;
             bottom: 0;
             width: 100%;
-            background-color: red;
-            color: white;
-            text-align: center;
-            height: 50px;
+            /* Height of the footer*/
+            height: 80px;
+            background-color: rgb(1, 23, 37);
+            display: flex;
 
         }
-        a{
+
+        a {
             text-decoration: none;
-            color: black;
+            color: white;
+            font-size: medium;
         }
 
-         </style>
+        form {
+            border: 3px solid #f1f1f1;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+    </style>
 
 </head>
 
 <body>
     <header>
+        <div class="parent">
+            <div id="logo">
+                <img src="TenantTax-logos_white.png" height="75px" width="70px">
 
-        <center>
-            <h1> Tenant Tax</h1>
-        </center>
-
-
+            </div>
+            <div id="heading">
+                TenantTax
+            </div>
+        </div>
     </header>
-    <nav>
 
-<<<<<<< HEAD
+    <nav>
         <a href="home1"> <i class="fa-solid fa-house-user"></i> &nbsp;Home</a>
         <a href="#body"><i class="fa-solid fa-building"></i>&nbsp;Property Tax</a>
         <a href="SubPages/NoticePayment.html"><i class="fa-solid fa-money-check"></i> &nbsp;Payment Status</a>
         <a href=""> <i class="fa-solid fa-download"></i>&nbsp;Download</a>
-=======
-        <a href="./index.html"> Home</a>
-        <a href="SubPages/property_tax.html">Property Tax</a>
-        <a href="SubPages/NoticePayment.html"> Payment Status</a>
-        <a href="./SubPages/Donwload-Receipt.html"> Donwload</a>
->>>>>>> 29c438e4446d02e8b302040ad2793bfe88621534
-
-
-
-
-
     </nav>
-    <div id = "section1" id ="section1"></div>
-    <section>
-        <div class="body" id = "body">
 
-            <div id="home1">
-                <img src="Pics/Home1.jpeg" height="400px" width="500px">
+    <section>
+        <div class="body" id="body">
+
+            <div id="mainImg">
+                <img src="download.jpeg">
 
             </div>
-            <div id="form">
+            <div id="login" class="div_2">
 
-                <h1>Login Page </h1>
-                <table>
-                    <form>
-                        <tr>
-                            <td>
-                                <label for="name">
-                                    Username:
-                                </label>
-<<<<<<< HEAD
-                            </td>
-                            <td></td>
-                            
-=======
-                            </td>                            
->>>>>>> 29c438e4446d02e8b302040ad2793bfe88621534
-                            
-                            <td><input type="text" id="name" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><label for="password" type = "password">
-                                    Password:
-                            </label>
-                            </td>
-                            <td><input type="password" id="password" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><input type="submit"  name="submit" value="submit" />
-                                                              
-                            </td>
-                            <td> <a href = "" >Do not have an Account!! </a><br>
-                                 <a>Create one </a>
-                            </td>
-                        </tr>
-                       
-                    </form>
-                </table>
-    
+                <h3>Login </h3>
+                <br>
+                <br>
+                <form action="/action_page.php" method="post">
+
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </div>
+
+                </form>
+                <br>
+
+                <a href = "" >Don't have a an Account!! <br>
+                Create one </div>a>
+
+
 
             </div>
         </div>
@@ -160,16 +210,6 @@
     </section>
 
     <footer>
-        <section class = "container">
-            <article class = "map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.847849327029!2d77.64346201541323!3d12.981581690849325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae16bae8f13e4f%3A0x54ca11c6321ba938!2sITILITE%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1665057821528!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                
-            </article>
-            
-        </section>
-
-        ajfoiewfhewio
 
 
     </footer>
