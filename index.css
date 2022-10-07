@@ -31,9 +31,6 @@ nav {
 
 
 }
-
-.hover {}
-
 .body {
     display: flex;
 }
@@ -50,7 +47,7 @@ nav {
 #mainImg img {
     
     margin-bottom: 50px; 
-    width: 600px;
+    width: 500px;
     height: 400px;
     image-resolution: from-image;
     image-resolution: 300dpi;
