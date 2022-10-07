@@ -111,7 +111,8 @@ a {
 
 
 input[type=text],
-input[type=password] {
+input[type=password],
+input[type=date] {
     width: 296px;
     padding: 12px 20px;
     margin: 8px 0;
