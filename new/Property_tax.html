@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TenantTax</title>
+        <link rel="icon" href="Pics/building.png" sizes="96x96" type="image/png">
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href="Property_tax.css">
+
+   
+       
+</head>
+    <body>
+        <header>
+            <div class="parent">
+                <div id="logo">
+                    <img src="../Pics/TenantTax-logos_white.png" height="75px" width="70px">
+    
+                </div>
+                <div id="heading">
+                    TenantTax
+                </div>
+            </div>
+        </header>
+    
+        <nav class="anchor">
+    
+            <a href="./home.html"> <i class="fa-solid fa-house-user"></i> &nbsp;Home</a>
+            <a href="Property_tax.html"><i class="fa-solid fa-building"></i>&nbsp;Property Tax</a>
+            <a href="NoticePayment.html"><i class="fa-solid fa-money-check"></i> &nbsp;Payment Status</a>
+            <div class="helpline">
+                <a href="" class="helpline"> <i class="fa-solid fa-phone-volume"></i>&nbsp;Helpline</a>
+                <section class="drop">
+                    <p>
+                        <center><u>TenantTax</u></center>
+                    </p>
+                    <ul style="padding-bottom: 60px;">
+                        <li>
+                            +91-9865348765
+                        </li>
+                        <li>
+                            +91-9854186549
+                        </li>
+                    </ul>
+    
+                </section>
+    
+            </div>
+    
+      
+        </nav>
+
+        <div class = "body">
+
+            <div class = "form1">
+                <table >
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                    
+            
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name"> <br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="appno"> Application ID</label>
+                        </td>
+                        <td>
+                            <input type="text" id="appno" name="appno"><br><br>
+        
+                        </td>
+                    </tr>
+                    <tr>
+        
+                        <td> <label for="paidamount">Paid Amount</label> </td>
+                        <td>  <input type="text" id="paidamount" name="paidamount" ><br><br></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="paiddate">Paid Date</label>
+                        </td>
+                        <td>
+                            <input type="date" id="paiddate" name="paiddate"><br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="form-action--button">
+                                <input type="submit" style="margin-left : 23px; ;"></input>
+                            </div>
+                                        
+                   
+                        </td>
+        
+                    </tr>  
+                    
+        
+                </fieldset>    
+                </form>
+        
+             </table>
+            </div>
+
+            <div class = "result">
+                <table class="list" id="storeList">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Application ID</th>
+                            <th>Paid Amount</th>
+                            <th>Paid Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
+
+
+            </div>
+
+            <div class = "update">
+
+            </div>
+
+
+
+        </div>
+
+          
+    
+        
+
+    <footer>
+        <i class="fa-regular fa-copyright" style="margin-top: 10px;"></i> &nbsp; 2020 Company - All Rights Reserved
+
+    </footer>
+
+    <script type="text/javascript" src="Property_tax.js"></script>
+</body>
+</html>

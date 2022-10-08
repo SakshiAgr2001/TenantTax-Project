@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.parent {
+    display: flex;
+    height: 80px;
+    background-color: rgb(3, 49, 77,0.9);
+    /* For browsers that do not support gradients */
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+#heading {
+    color: white;
+    font-size: 40px;
+}
+
+nav {
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(12, 62, 95,0.9);
+    padding: auto;
+
+
+
+}
+.drop {
+    margin-top: 40px;
+    height: 120px;
+    width: 270px;
+    background-color: rgba(65, 148, 151, 0.9);
+    display: none;
+    position: absolute;
+    top: 75px;
+    color: antiquewhite;
+    justify-content: center;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+.helpline:hover>.drop {
+    display: block;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.anchor a:hover {
+    color: rgb(82, 230, 230);
+}
+
+.anchor a:hover {
+    border: 2px solid white;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width:100%;
+    /* Height of the footer*/
+    height: 80px;
+    background-color: rgb(3, 49, 77);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: antiquewhite;
+    font-family:cursive;
+    
+
+}
+.body{
+    display: flex;
+}
+.form1{
+    height: 900px;
+    width: 40%;
+    background-color: rgb(23, 57, 80,0.7);
+    align-items: center;
+    padding: 2em;
+
+}
+
+.result{
+    height: 900px;
+    width: 60%;
+    background-color: rgb(23, 57, 80,0.5);
+
+}
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+.result table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(124,154,167);
+}
+
+.result  table.list{
+    text-align: center;
+    width: 100%;
+}
+
+.result td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+.result  tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
