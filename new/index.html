@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TenantTax</title>
+    <title>TenantTax index</title>
     <link rel="icon" href="Pics/building.png" sizes="96x96" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -58,12 +58,6 @@
             </section>
 
         </div>
-
-
-
-
-
-
     </nav>
 
     <section>
@@ -150,27 +144,7 @@
 
 
 <script>
-/*
-function saveData()
-{
-let email,psw;
-email=document.getElementById("email").value;
 
-psw=document.getElementById("psw").value;
-
-let user_records=new Array();
-user_records=JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[]
-if(user_records.some((v)=>{return v.email==email && v.psw==psw}))
-{
-  alert("Login Pass");
-  window.location.href="home.html"
-}
-else
-{
-  alert('Login Fail');
-}
-
-}*/
 let name=localStorage.getItem('name')?localStorage.getItem('name'):''
         console.log(name);
         if(name!='')
