@@ -58,7 +58,7 @@
 
             <div class = "form1">
                 <table >
-                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <form autocomplete="off" id = "form" >
                     
             
                     <tr>
@@ -94,7 +94,8 @@
                     <tr>
                         <td colspan="2">
                             <div class="form-action--button">
-                                <input type="submit" style="margin-left : 23px; ;"></input>
+                                <input type="button" value="Submit" id= "btn"  onclick = "Submit()" style="margin-left : 23px;">
+                                <input type="reset" value="reset">
                             </div>
                                         
                    
@@ -105,20 +106,26 @@
         
                 </fieldset>    
                 </form>
+
         
              </table>
+             <div id = "msg" style="font-size: 25px; color:antiquewhite">
+
+             </div>
+             <br>
             </div>
 
             <div class = "result">
-                <table class="list" id="storeList">
-                    <thead>
+                <table class="list" id="table">
+                   
                         <tr>
-                            <th>Name</th>
-                            <th>Application ID</th>
-                            <th>Paid Amount</th>
-                            <th>Paid Date</th>
+                            <td class = ".col">Name</td>
+                            <td class = ".col">Application ID</td>
+                            <td class = ".col">Paid Amount</td>
+                            <td class = ".col">Paid Date</td>
+                            <td class = ".col">Action</td>
                         </tr>
-                    </thead>
+                  
                     <tbody>
 
                     </tbody>
@@ -128,9 +135,7 @@
 
             </div>
 
-            <div class = "update">
-
-            </div>
+          
 
 
 
@@ -145,6 +150,6 @@
 
     </footer>
 
-    <script type="text/javascript" src="Property_tax.js"></script>
+    <script type="text/javascript" src="../SubPages/Property_tax.js"></script>
 </body>
 </html>
