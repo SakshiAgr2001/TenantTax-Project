@@ -7,6 +7,11 @@
     <title>TenantTax</title>
         <link rel="icon" href="../Pics/building.png" sizes="96x96" type="image/png">
         <link rel = "stylesheet" href="../index.css">
+              
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href="Property_tax.css">
 
     <style>
         
@@ -48,6 +53,10 @@
 
         .body {
             display: flex;
+            
+        }
+        body{
+            background-color: rgb(114, 151, 193);
         }
 
         #mainImg img {
@@ -78,7 +87,7 @@
             width: 100%;
             /* Height of the footer*/
             height: 80px;
-            background-color: rgb(1, 23, 37);
+            background-color: rgb(3, 49, 77);
             display: flex;
 
         }
@@ -171,8 +180,8 @@
     <nav class="anchor">
 
         <a href="../index.html"> <i class="fa-solid fa-house-user"></i> &nbsp;Home</a>
-        <a href="./SubPages/property_tax.html"><i class="fa-solid fa-building"></i>&nbsp;Property Tax</a>
-        <a href="./SubPages/NoticePayment.html"><i class="fa-solid fa-money-check"></i> &nbsp;Payment Status</a>
+        <a href="./Property_tax.html"><i class="fa-solid fa-building"></i>&nbsp;Property Tax</a>
+        <a href="./NoticePayment.html"><i class="fa-solid fa-money-check"></i> &nbsp;Payment Status</a>
         <div class="helpline">
             <a href="" class="helpline"> <i class="fa-solid fa-phone-volume"></i>&nbsp;Helpline</a>
             <section class="drop">
@@ -198,7 +207,7 @@
 
 
     </nav>
-    <h2 style="color: blue;">Notice Payment</h2>
+    <h2 style="color: black;">Notice Payment</h2>
 
     <form action="post">
         <label for="application">Application Number: </label>
@@ -207,28 +216,35 @@
         <input type="radio" name = "demand"> Zonal Notice
         <br>
         <br>
-        <input type="button" value="Retrive">
+        <input type="submit" value="Retrive">
         <input type="reset" name="Clear" id="reset">
 
     </form>
-    <h3 style="color: red;">Note: </h3>
-<ol>
+    <h3 style="color: rgb(146, 30, 30);">Note: </h3>
+    <div>
+<ul style="list-style-type:disc">
     <li>
-        Demand Notice Payment is allowed for each assessment year separtely
+        => Demand Notice Payment is allowed for each assessment year separtely
 
     </li>
     <li>
-        Before proceeding to payment , verify if all the details are correct
+        => Before proceeding to payment , verify if all the details are correct
 
     </li>
     <li>
-        Once payment is initiated, Challan or online payment mode cannot be changed
+        => Once payment is initiated, Challan or online payment mode cannot be changed
 
     </li>
     <li>
-        Payment should be done within the stipulated period
+        => Payment should be done within the stipulated period
 
     </li>
-</ol>
+</ul>
+
+</div>
+<footer>
+    <i class="fa-regular fa-copyright" style="margin-top: 10px;"></i> &nbsp; 2020 Company - All Rights Reserved
+
+</footer>
 </body>
 </html>
